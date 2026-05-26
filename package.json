@@ -1,0 +1,25 @@
+{
+  "name": "instana-hackathon-2026",
+  "version": "1.0.0",
+  "description": "The Instana Hackathon 2026",
+  "keywords": [
+    "instana",
+    "hackathon"
+  ],
+  "homepage": "https://github.com/sebastianwilczek/instana-hackathon-2026#readme",
+  "bugs": {
+    "url": "https://github.com/sebastianwilczek/instana-hackathon-2026/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianwilczek/instana-hackathon-2026.git"
+  },
+  "license": "ISC",
+  "author": "Sebastian Wilczek",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
+}
