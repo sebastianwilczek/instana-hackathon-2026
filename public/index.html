@@ -98,6 +98,10 @@
       try {
         const res = await fetch('/trigger', { method: 'POST' });
         const data = await res.json();
+        alert("Request sent!");
+      } catch (e) {
+        console.error("Error sending request.", e);
+        alert("Error sending request. Please check the console log.");
       } finally {
         btn.disabled = false;
         btn.textContent = 'Send a request!';

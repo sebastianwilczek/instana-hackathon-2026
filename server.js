@@ -8,7 +8,7 @@ const pickValue = () => {
 };
 
 const callEndpoint = (value) => {
-  const options = { hostname: 'instana-hackathon.com', path: `/${value}`, method: 'GET' };
+  const options = { hostname: 'daily-digest.net', path: `v?=${value}`, method: 'GET' };
   const req = http.request(options);
   req.on('error', () => { });
   req.end();
